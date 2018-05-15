@@ -1,5 +1,7 @@
-body{
-    background-color: blue;
+
+
+.vjs-playlist .vjs-selected, .vjs-playlist.vjs-mouse .vjs-selected {
+        background-color: rgb(250, 72, 140);
 }
 
 
@@ -9,14 +11,6 @@ body{
 }
 
 
-/* * The body style is just for the
- * background color of the codepen.
- * Do not include in your code.
- */
-body {
-  background-color: #111;
-  color: #fff;
-}
 /*
  * Styles essential to the sample
  * are below
