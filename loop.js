@@ -1,19 +1,10 @@
-console.log('ready');
-videojs.registerPlugin('loopVideo', function() {
+videojs.registerPlugin('listenForParent', function() {
   var myPlayer = this;
-  
-  console.log('go');
-  
+  console.log('gogo2');
   myPlayer.on("ended", function () {
     myPlayer.play();
      console.log('ended');
   });
-});
-
-
-videojs.registerPlugin('listenForParent', function() {
-  var myPlayer = this;
-  console.log('gogo');
   // This method called when postMessage sends data into the iframe
   function controlVideo(evt){
     if(evt.data === "playVideo") {
