@@ -18,7 +18,7 @@ textarea:focus, input:focus{
     left: 0;
     width: 36px;
     height: 100%;
-    transition: opacity .4s;
+    transition: all .4s !important;
 }
 
 .bc-iframe .vjs-playlist-show-hide button {
@@ -41,11 +41,12 @@ textarea:focus, input:focus{
 
 
 .bc-iframe .vjs-playlist-sidebar-vertical.vjs-playlist-hidden {
-    width: 40%;
-    max-width: 240px;
+    width: 40% !important;
+    max-width: 240px !important;
     top: 0%;
     height: 100%;
     transform: translateX(calc(100% - 17px));
+    transition: all .4s !important;
 }
 
 .bc-iframe .vjs-playlist-vertical {
@@ -53,8 +54,10 @@ textarea:focus, input:focus{
 }
 
 .bc-iframe .vjs-playlist-sidebar-vertical {
-    transition: all .4s;
+    transition: all .4s !important;
   transform: translateX(0%);
+    width: 40% !important;
+    max-width: 240px !important;
 }
 
 .vjs-playlist {
