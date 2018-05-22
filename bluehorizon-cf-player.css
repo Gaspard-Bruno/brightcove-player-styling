@@ -3,6 +3,13 @@
     background-color: #FB4A8D !important;
 }
 
+.bc-iframe .vjs-playlist-show-hide button:focus {
+    border-style: solid none solid solid;
+    border-color: transparent;
+    border-width: 0px;
+    outline: 0;
+}
+
 textarea:focus, input:focus{
     outline: none;
 }
