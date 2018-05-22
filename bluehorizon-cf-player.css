@@ -34,6 +34,7 @@
 
 .bc-iframe .vjs-playlist-sidebar-vertical.vjs-playlist-hidden {
     width: 40%;
+    max-width: 240px;
     top: 0%;
     height: 100%;
     transform: translateX(calc(100% - 17px));
