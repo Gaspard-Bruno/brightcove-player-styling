@@ -60,7 +60,7 @@ button:focus {outline:0;}
     max-width: 240px !important;
     top: 0%;
     height: 100%;
-    transform: translateX(calc(100% - 15px));
+    transform: translateX(calc(100% - 18px));
     transition: all .4s !important;
 }
 
@@ -80,6 +80,16 @@ button:focus {outline:0;}
     background: rgba(26, 26, 26, 0.19) !important;
     color: #fff;
     list-style-type: none;
+}
+
+.vjs-playlist .vjs-playlist-duration {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    padding: 2px 5px 3px;
+    margin-left: 2px;
+    background-color: rgba(251, 74, 141, 0.9)!important;
+    font-size: 10px;
 }
 
 
