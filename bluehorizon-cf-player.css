@@ -1,6 +1,14 @@
 
 .vjs-playlist .vjs-selected, .vjs-playlist.vjs-mouse .vjs-selected {
-    background-color: hsv(327, 83%, 84%);
+    background-color: #FB4A8D !important;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
 }
 
 
@@ -14,7 +22,7 @@
 }
 
 .bc-iframe .vjs-playlist-show-hide button {
-    width: 17px;
+    width: 15px;
     height: 100%;
     line-height: 0;
     margin: 0;
