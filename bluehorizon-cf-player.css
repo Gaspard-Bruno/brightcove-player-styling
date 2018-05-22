@@ -31,7 +31,7 @@ textarea:focus, input:focus{
     top: 50%;
     transform: translateY(-50%);
     font-family: "Trebuchet MS";
-    font-size: 25px;
+    font-size: 18px;
     background: rgba(26, 26, 26, 0.19);
     border-radius: 0;
     border: none;
@@ -39,18 +39,23 @@ textarea:focus, input:focus{
     color: #ffffff;
 }
 
+.bc-iframe .vjs-playlist-show-hide button:focus, .bc-iframe .vjs-playlist-show-hide button:hover{
+    outline: none !important;
+}
+    
+
 
 .bc-iframe .vjs-playlist-sidebar-vertical.vjs-playlist-hidden {
     width: 40% !important;
     max-width: 240px !important;
     top: 0%;
     height: 100%;
-    transform: translateX(calc(100% - 17px));
+    transform: translateX(calc(100% - 15px));
     transition: all .4s !important;
 }
 
 .bc-iframe .vjs-playlist-vertical {
-    margin: 0 0 0 17px;
+    margin: 0 0 0 15px;
 }
 
 .bc-iframe .vjs-playlist-sidebar-vertical {
@@ -62,7 +67,7 @@ textarea:focus, input:focus{
 
 .vjs-playlist {
     padding: 0;
-    background-color: #1a1a1a;
+    background: rgba(26, 26, 26, 0.19) !important;
     color: #fff;
     list-style-type: none;
 }
