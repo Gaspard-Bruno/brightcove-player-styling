@@ -1,1 +1,59 @@
 
+.vjs-playlist .vjs-selected, .vjs-playlist.vjs-mouse .vjs-selected {
+    background-color: hsv(327, 83%, 84%);
+}
+
+
+.bc-iframe .vjs-playlist-show-hide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 100%;
+    transition: opacity .4s;
+}
+
+.bc-iframe .vjs-playlist-show-hide button {
+    width: 17px;
+    height: 100%;
+    line-height: 0;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Trebuchet MS";
+    font-size: 25px;
+    background: rgba(26, 26, 26, 0.19);
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+.bc-iframe .vjs-playlist-sidebar-vertical.vjs-playlist-hidden {
+    width: 40%;
+    top: 0%;
+    height: 100%;
+    transform: translateX(calc(100% - 17px));
+}
+
+.bc-iframe .vjs-playlist-vertical {
+    margin: 0 0 0 17px;
+}
+
+.bc-iframe .vjs-playlist-sidebar-vertical {
+    transition: all .4s;
+  transform: translateX(0%);
+}
+
+.vjs-playlist {
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    list-style-type: none;
+}
+
+
+
