@@ -4,6 +4,7 @@ videojs.registerPlugin('listenForParent', function() {
   myPlayer.on("ended", function () {
     myPlayer.play();
      console.log('ended');
+      $carouselHome.flickity('next');
   });
   // This method called when postMessage sends data into the iframe
   function controlVideo(evt){
