@@ -3,9 +3,19 @@ videojs.registerPlugin('listenForParent', function() {
   console.log('gogo2');
   myPlayer.on("ended", function () {
       myPlayer.play();
-      console.log('end of video');
-      jQuery('.slider___home').flickity('next');
+      
+    
+      console.log('end of video2');
+    
+    
+      var flkty = new Flickity('.slider___home');
+    
+      flkty.next();
+    
+    
   });
+  
+  
   // This method called when postMessage sends data into the iframe
   function controlVideo(evt){
     if(evt.data === "playVideo") {
