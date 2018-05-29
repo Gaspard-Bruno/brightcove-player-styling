@@ -3,7 +3,7 @@ videojs.registerPlugin('listenForParent', function() {
   console.log('gogo2');
   myPlayer.on("ended", function () {
     myPlayer.play();
-     console.log('ended');
+     console.log('end of video');
       $carouselHome.flickity('next');
   });
   // This method called when postMessage sends data into the iframe
