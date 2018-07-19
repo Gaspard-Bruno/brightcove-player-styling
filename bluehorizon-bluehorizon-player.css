@@ -3,6 +3,10 @@
     background-color: #78cdf4 !important;
 }
 
+.vjs-playlist .vjs-playlist-duration {
+    background-color: #78cdf4 !important;
+}
+
 .bc-iframe .vjs-playlist-show-hide button:focus {
     border-style: solid none solid solid;
     border-color: transparent;
