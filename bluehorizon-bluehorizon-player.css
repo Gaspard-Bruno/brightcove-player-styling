@@ -31,7 +31,7 @@ button:focus {outline:0;}
     top: 0;
     left: 0;
     width: 36px;
-    height: 100%;
+    height: calc(100% - 35px);
     transition: all .4s !important;
 }
 
@@ -94,4 +94,9 @@ button:focus {outline:0;}
     margin-left: 2px;
     background-color: #78cdf4 !important;
     font-size: 10px;
+}
+
+.bc-player-SkEwkqjQX_default .vjs-big-play-button, .bc-player-SkEwkqjQX_default .vjs-control-bar {
+    background-color: #1C1C1C !important;
+    z-index: 20;
 }
